@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- adding an audio -->
+     <h1>Audio</h1>
+     <audio controls muted>
+        <source src="">
+     </audio><br>
+     <!-- adding a video -->
+      <h1>Video</h1>
+      <video controls muted loop width="500" height="300">
+        <source src="Pin page_2.mp4" type="mp4 video" >
+      </video>
+      <h1>Registration Form</h1> 
+      <form> 
+        <label for="fullName">Full Name:</label> 
+        <input type="text" id="fullName" name="fullName" required maxlength="50"><br><br> 
+        
+        <label for="email">Email Address:</label> 
+        <input type="email" id="email" name="email" required><br><br> 
+        
+        <label for="password">Password:</label> 
+        <input type="password" id="password" name="password" required minlength="8"><br><br> 
+        
+        <label for="age">Age:</label> 
+        <input type="number" id="age" name="age" required min="18"><br><br> 
+        
+        <label>Gender:</label> 
+        <input type="radio" id="male" name="gender" value="Male"> 
+        <label for="male">Male</label> 
+        
+        <input type="radio" id="female" name="gender" value="Female"> 
+        <label for="female">Female</label> 
+        <input type="radio" id="other" name="gender" value="Other"> 
+        <label for="other">Other</label><br><br>
+        
+        <label for="terms"> <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions </label><br><br> <button type="submit">Register</button> </form>
+</body>
+</html>
